@@ -20,26 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Dhymas Pamungkas",
+  title: "Hi all, I'm Dhymas",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 memiliki pengalaman dalam pembuatan Web-app menggunakan JavaScript / Reactjs / Nodejs / React Native."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1QjILLAelDobn1yxeRqSKoAGRzeGPBXca/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dhymaspamungkas",
+  linkedin: "https://www.linkedin.com/in/dhymaspamungkas/",
+  gmail: "dhymas.btp@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,8 +44,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Apa aja sih",
+  subTitle: "",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -126,23 +122,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "UIN Sunan Kalijaga Yogyakarta",
+      logo: require("./assets/images/UIN Sunan Kalijaga.png"),
+      subHeader: "Bachelor of science in Computer Science",
+      duration: "September 2020 - Agustus 2024",
+      desc: "Berpatisipasi dalam kegiatan Kampus Merdeka: Bangkit by Gojek, GoTo, Traveloka",
+      desc: "Apasaja yang dilakukan:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Belajar dasar cloud & GCP",
+        "Backend Development (API)",
+        "DevOps dasar",
+        "Database & arsitektur data",
+        "Capstone Project (tim multidisiplin)"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -174,29 +166,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Data Entry Staff",
+      company: "Pt Wahana Ottomitra Multiartha, tbk",
+      companylogo: require("./assets/images/WOM.png"),
+      date: "September 2024 – Present",
+      desc: "Bertugas memasukkan, mengolah, dan memperbarui data ke dalam sistem atau database perusahaan secara akurat dan terstruktur.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Memproses sedikitnya 20 aplikasi pelanggan per hari dalam sistem dengan cepat dan tepat.",
+        "Mempertahankan tingkat akurasi 99,9% dalam entri data, sehingga mendukung pemrosesan yang tepat waktu sesuai tenggat dan standar kualitas.",
+        "Memeriksa kelengkapan dan kebenaran dokumen pelanggan untuk memastikan kesesuaian dengan persyaratan operasional dan sistem.",
+        "Berkoordinasi dengan kantor cabang dan manajer divisi dalam mengelola alur dokumen serta menyelesaikan ketidaksesuaian data.",
+        "Mendukung peningkatan kecepatan dan akurasi proses kredit dengan memastikan seluruh pengajuan memenuhi panduan perusahaan.",
+        "Memastikan ketepatan penginputan data pelanggan sekaligus melakukan pengecekan kualitas terhadap seluruh dokumen yang diterima.",
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
