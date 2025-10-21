@@ -254,7 +254,7 @@ const achievementSection = {
       subtitle:
         "Matchday Alert!",
       image: require("./assets/images/matchday.jpg"),
-      imageAlt: "ogle Code-In LogoGo",
+      imageAlt: "",
       footerLink: [
         {
           name: "link gdrive",
