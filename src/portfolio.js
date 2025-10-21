@@ -23,7 +23,7 @@ const greeting = {
   username: "Dhymas Pamungkas",
   title: "Hi all, I'm Dhymas",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 memiliki pengalaman dalam pembuatan Web-app menggunakan JavaScript / Reactjs / Nodejs / React Native."
+    "🚀 memiliki pengalaman dalam pembuatan Web-app menggunakan JavaScript / Reactjs / Nodejs / React Native dan Basic editing dengan Canva / Capcut / Tiktok"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1QjILLAelDobn1yxeRqSKoAGRzeGPBXca/view?usp=drive_link", // Set to empty to hide the button
@@ -44,16 +44,17 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Apa aja sih",
+  title: "Skills",
   subTitle: "",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Skill lainnya:"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("Canva"),
+    emoji("Lightroom"),
+    emoji("Snapseed"),
+    emoji("Tiktok"),
+    emoji("Capcut"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -69,10 +70,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -85,10 +82,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -97,20 +90,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,17 +105,10 @@ const educationInfo = {
     {
       schoolName: "UIN Sunan Kalijaga Yogyakarta",
       logo: require("./assets/images/UIN Sunan Kalijaga.png"),
-      subHeader: "Bachelor of science in Computer Science",
+      subHeader: "Sarjana Teknik Informatika",
       duration: "September 2020 - Agustus 2024",
       desc: "Berpatisipasi dalam kegiatan Kampus Merdeka: Bangkit by Gojek, GoTo, Traveloka",
-      desc: "Apasaja yang dilakukan:",
-      descBullets: [
-        "Belajar dasar cloud & GCP",
-        "Backend Development (API)",
-        "DevOps dasar",
-        "Database & arsitektur data",
-        "Capstone Project (tim multidisiplin)"
-      ]
+      desc: "IPK 3.34 / 4.00"
     }
   ]
 };
@@ -146,15 +120,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "30%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Editing dan Desain",
+      progressPercentage: "45%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -179,7 +153,19 @@ const workExperiences = {
         "Mendukung peningkatan kecepatan dan akurasi proses kredit dengan memastikan seluruh pengajuan memenuhi panduan perusahaan.",
         "Memastikan ketepatan penginputan data pelanggan sekaligus melakukan pengecekan kualitas terhadap seluruh dokumen yang diterima.",
       ]
-    }
+    },
+    // {
+    //   role: "Cloud Computing Students",
+    //   company: "Bangkit by Gojek, GoTo, Traveloka",
+    //   companylogo: require("./assets/images/bangkit.jpg"),
+    //   date: "Februari 2023 – Agustus 2023",
+    //   desc: "program pendidikan intensif kolaborasi antara Google, GoTo, Traveloka, dan mitra lainnya yang bertujuan membekali talenta muda Indonesia dengan keterampilan teknologi terkini.",
+    //   descBullets: [
+    //     "Mengikuti pembelajaran intensif cloud computing melalui platform ternama seperti Coursera dan Google Cloud Skills Boost dengan materi Google Cloud Platform (GCP), Kubernetes, App Engine, hingga Cloud Storage dan Database.",
+    //     "Mengembangkan soft skills profesional termasuk critical thinking, leadership, manajemen waktu, serta komunikasi efektif dalam Bahasa Inggris.",
+    //     "Mengerjakan proyek akhir (Capstone Project) secara tim, merancang dan membangun solusi cloud nyata yang siap diterapkan di dunia industri."
+    //   ]
+    // }
   ]
 };
 
@@ -194,32 +180,45 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Pengalaman",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bangkit.jpg"),
+      projectName: "Bangkit by Gojek, GoTo, Traveloka",
+      projectDesc: "program pendidikan intensif kolaborasi antara Google, GoTo, Traveloka, dan mitra lainnya yang bertujuan membekali talenta muda Indonesia dengan keterampilan teknologi terkini",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Sertifikat Kelulusan",
+          url: "https://drive.google.com/file/d/1I46uB2PHWN8vIMS0GT7U3U7U67FefGmQ/view?usp=sharing"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/courseralogo.png"),
+      projectName: "Coursera",
+      projectDesc: "Coursera, platform pembelajaran global yang bekerja sama dengan universitas dan perusahaan ternama. Melalui Coursera, saya mengembangkan keterampilan di bidang IT dan data science, serta memperoleh sertifikat sebagai bukti kompetensi",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Sertifikat Kelulusan",
+          url: "https://drive.google.com/drive/folders/1f0eP4zt9vDbsn6QGIHx89kGnnw4hz2uA?usp=sharing"
         }
+        //  you can add extra buttons here.
       ]
-    }
+    },
+    {
+      image: require("./assets/images/dicoding.jpeg"),
+      projectName: "Dicoding",
+      projectDesc: "Dicoding, platform edukasi teknologi yang bekerja sama dengan berbagai perusahaan besar seperti Google, IBM, AWS, dan lainnya. Melalui Dicoding, saya mempelajari keterampilan praktis di bidang pemrograman dan memperoleh sertifikat resmi yang diakui industri",
+      footerLink: [
+        {
+          name: "Sertifikat Kelulusan",
+          url: "https://drive.google.com/drive/folders/186fAzvxsUAIM-Oq_wN6Pn0_iOcswyKZQ?usp=drive_link"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -228,59 +227,132 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Desain dan Editing Projek "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Organisasi, Event, freelance, dan lain-lain",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Rembuk Pemuda DIY",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Operasi Senyumkan Yogyakarta: Semua berhak senyum, Semua layak!",
+      image: require("./assets/images/coverRPD.jpeg"),
+      imageAlt: "",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "link gdrive",
+          url: "https://drive.google.com/drive/folders/1FmgxdHypsmIrkqxyx2CYmVrpvFuDoSWM?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Instagram",
+          url: "https://www.instagram.com/rembukpemudadiy?igsh=ZDdwMms2cDJ1cXM3"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Rembuk Pemuda DIY",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Matchday Alert!",
+      image: require("./assets/images/matchday.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/19w4TVdnWCslz3nMgrdljiDqGr0Iq_OLR/view?usp=drive_link"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "PMII Rayon Aufklarung",
+      subtitle:
+        "Diskusi Buku: Bumi Manusia",
+      image: require("./assets/images/coverPMII.jpg"),
+      imageAlt: "",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "link gdrive",
+          url: "https://drive.google.com/drive/folders/1mvgvFXPQGdu6U5kV-Zm0R3D5_v4go0w9?usp=sharing"
         }
       ]
-    }
+    },
+    {
+      title: "PMII Rayon Aufklarung",
+      subtitle:
+        "Hari Kemerdekaan: 78",
+      image: require("./assets/images/4.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
+      footerLink: [
+        {
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/196H0TzQhjVSx5itFf_8UZlBR1RQsahMI/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "PMII Rayon Aufklarung",
+      subtitle:
+        "Tahun Baru Islam 1445 H",
+      image: require("./assets/images/5.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
+      footerLink: [
+        {
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/1tWBi1vQkqi0B1P8ZPpxMO2_XTrHjuyaT/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "PMII Rayon Aufklarung",
+      subtitle:
+        "Aufklarung Mengabdi",
+      image: require("./assets/images/8.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
+      footerLink: [
+        {
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/12-F8e9XiaEgP5-VuDA9EczIIfQYpxmGU/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "PMII Rayon Aufklarung",
+      subtitle:
+        "Open PO: Korsa Anggota",
+      image: require("./assets/images/41.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
+      footerLink: [
+        {
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/10RrBOz37rCygfaIBkNciyUxmPdzpiGml/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Outbond CDE",
+      subtitle:
+        "CDE being CDE",
+      image: require("./assets/images/cde.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
+      footerLink: [
+        {
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/1L68SIrVBvzlF_XUw8p0phWkEILWS8DWc/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Lebih detail nya:",
+      subtitle:
+        "Aufklarung Mengabdi",
+      image: require("./assets/images/whitebg.jpg"),
+      imageAlt: "ogle Code-In LogoGo",
+      footerLink: [
+        {
+          name: "link gdrive",
+          url: "https://drive.google.com/file/d/12-F8e9XiaEgP5-VuDA9EczIIfQYpxmGU/view?usp=drive_link"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -306,7 +378,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -325,7 +397,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -338,7 +410,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -353,16 +425,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "",
+  number: "+62 87824201560",
+  email_address: "dhymas.btp@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
