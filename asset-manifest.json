@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio2025/static/css/main.3985b7e1.css",
-    "main.js": "/portofolio2025/static/js/main.41b9d579.js",
+    "main.js": "/portofolio2025/static/js/main.caa5e86d.js",
     "static/css/64.bba8fa55.chunk.css": "/portofolio2025/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/portofolio2025/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/portofolio2025/static/css/769.b3cbb36b.chunk.css",
@@ -27,7 +27,7 @@
     "index.html": "/portofolio2025/index.html",
     "static/media/talksCardBack.svg": "/portofolio2025/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3985b7e1.css.map": "/portofolio2025/static/css/main.3985b7e1.css.map",
-    "main.41b9d579.js.map": "/portofolio2025/static/js/main.41b9d579.js.map",
+    "main.caa5e86d.js.map": "/portofolio2025/static/js/main.caa5e86d.js.map",
     "64.bba8fa55.chunk.css.map": "/portofolio2025/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/portofolio2025/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/portofolio2025/static/css/769.b3cbb36b.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.3985b7e1.css",
-    "static/js/main.41b9d579.js"
+    "static/js/main.caa5e86d.js"
   ]
 }
