@@ -349,7 +349,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "link gdrive",
-          url: "https://drive.google.com/file/d/12-F8e9XiaEgP5-VuDA9EczIIfQYpxmGU/view?usp=drive_link"
+          url: "https://drive.google.com/file/d/13KaZc6Iw8kJZ4qDeEtwgidPPN31JZqfo/view?usp=sharing"
         }
       ]
     },
