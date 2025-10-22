@@ -344,8 +344,8 @@ const achievementSection = {
       title: "AFtermovie CDE",
       subtitle:
         "CDE being CDE",
-      image: require("./assets/images/cderecap.jpg"),
-      imageAlt: "ogle Code-In LogoGo",
+      image: require("./assets/images/RecapSS.JPG"),
+      imageAlt: "",
       footerLink: [
         {
           name: "link gdrive",
@@ -378,7 +378,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
