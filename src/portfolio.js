@@ -340,19 +340,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "AFtermovie CDE",
-      subtitle:
-        "CDE being CDE",
-      image: require("./assets/images/RecapSS.JPG"),
-      imageAlt: "",
-      footerLink: [
-        {
-          name: "link gdrive",
-          url: "https://drive.google.com/file/d/13KaZc6Iw8kJZ4qDeEtwgidPPN31JZqfo/view?usp=sharing"
-        }
-      ]
-    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -360,22 +347,28 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Video Editing",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://drive.google.com/file/d/1jptm_O6SMsBuAbdaKtnTNILsDQOy7d58/view?usp=drive_link",
+      title: "Video Kampanye Afnan Singgih",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Video singkat untuk pengenalan terhadap paslon terkait saat pilkada"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://drive.google.com/file/d/1foUyHDUJM3Hdlf3BO_63_Ac2opT1q_Ts/view?usp=drive_link",
+      title: "Aftermovie Operasi Senyumkan Yogyakarta",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Video berisikan kegiatan dan keseruan bareng dengan kaum termaginalisasi"
+    },
+    {
+      url: "https://drive.google.com/file/d/13KaZc6Iw8kJZ4qDeEtwgidPPN31JZqfo/view?usp=drive_link",
+      title: "Aftermovie CDE being CDE",
+      description:
+        "Cuplikan singkat kegiatan Div cde di kegiatan Outbond"
     }
   ],
   display: true // Set false to hide this section, defaults to true
