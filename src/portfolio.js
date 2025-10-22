@@ -341,10 +341,10 @@ const achievementSection = {
       ]
     },
     {
-      title: "Lebih detail nya:",
+      title: "AFtermovie CDE",
       subtitle:
-        "Aufklarung Mengabdi",
-      image: require("./assets/images/whitebg.jpg"),
+        "CDE being CDE",
+      image: require("./assets/images/cderecap.jpg"),
       imageAlt: "ogle Code-In LogoGo",
       footerLink: [
         {
